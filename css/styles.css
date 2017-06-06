@@ -7,13 +7,19 @@ a {
     color: white;
     text-decoration: none;
 }
+a:hover{
+    /*tiffany blue*/
+    color:#81D8D0; 
+    text-decoration: #81D8D0;
+}
 
 p { 
     width: 50%;
 }
 
 html { 
-  background: url(../img/desktop.jpg) no-repeat center top; 
+  background: url(../img/desktop.jpg) no-repeat center top;
+  background-size: 100% 650px;
 }
 
 body {
@@ -24,31 +30,50 @@ body {
 }
 
 header{
-margin-bottom: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    min-width: 320px;
+    width: 100%;
+    margin-bottom: 200px;
 }
 
 h1, 
 h2, 
 p {
     text-align: center;
-    padding: 5px;
 }
 
 ul {
     list-style: none;
-    padding: 0;
-    margin: 0;
+    display: flex;
 }
 
-.main-nav > ul {
-    /*tiffany blue*/
-    background:#81D8D0; 
+.main-nav {
     position: fixed;
     width: 100%;
     top: 0;
-    display: flex;
     padding-top: 10px;
-    padding-bottom: 10px; 
+    padding-bottom: 10px;
+}
+.main-nav > ul{
+padding-top: 40px;
+}
+
+
+.about-me > h1 {
+    font-size: 40px;
+    padding-bottom: 40px;
+}
+
+.img-section{
+    padding-top: 200px;
+    padding-left: 100px;
+
+}
+.avi_image {
+    height: 200px;
+    width: 200px;
+    border-radius: 60%;
 }
 
 #contact{
