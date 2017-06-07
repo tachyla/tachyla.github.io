@@ -34,12 +34,12 @@ body {
 }
 
 .work > h1 {
-        color:#81D8D0; 
+    color:#81D8D0; 
 }
  
-header{
-    margin-right: auto;
-    margin-left: auto;
+header {
+    /*margin-right: auto;
+    margin-left: auto;*/
     min-width: 320px;
     width: 100%;
     margin-bottom: 200px;
@@ -55,20 +55,21 @@ ul {
     list-style: none;
     display: flex;
 }
-.span-font {
-    font-style: medium italic;
-}
 
 .main-nav {
     position: fixed;
     width: 100%;
     top: 0;
+    left: 0;
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: black; 
     opacity: .5;
+    display: flex;
 }
+
 .main-nav > ul{
+width: 100%;
 padding-top: 30px;
 padding-bottom: 15px;
 }
@@ -79,9 +80,9 @@ padding-bottom: 15px;
     padding-bottom: 40px;
 }
 
-.tech-stack > h1,
-.work > h3 {
-    color:#81D8D0; 
+.tech-stack > h1 {
+    color:#81D8D0;
+    padding-bottom: 40px; 
 }
 .img-section {
     padding-top: 200px;
@@ -93,6 +94,9 @@ padding-bottom: 15px;
     width: 200px;
     border-radius: 60%;
 }
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
 
 /*______Project Grid Layout_______*/
 
