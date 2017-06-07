@@ -4,13 +4,18 @@
 }
 
 a {
-    color: white;
+    color: #81D8D0;
     text-decoration: none;
+}
+
+p {
+    font-weight: 24px;
+    color: lightgray;
 }
 
 a:hover {
     /*tiffany blue*/
-    color:#81D8D0; 
+    color:#B25123; 
     /*text-decoration: #81D8D0;*/
     border-bottom: 2px #81D8D0;
 }
@@ -20,9 +25,6 @@ a:active {
     color:#81D8D0; 
     /*text-decoration: #81D8D0;*/
     border-bottom: 2px #81D8D0;
-}
-p {
-    font-weight: 24px;
 }
 
 html { 
@@ -79,6 +81,7 @@ padding-bottom: 15px;
 .about-me > h1 {
     color:#81D8D0; 
     font-size: 40px;
+    font-style: 
     padding-bottom: 40px;
 }
 
