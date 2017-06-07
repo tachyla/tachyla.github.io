@@ -1,25 +1,24 @@
 * {
     box-sizing: border-box;
     margin: 0 auto;
-    padding: 0 1rem;
-
 }
 
 a {
     color: white;
     text-decoration: none;
 }
+
 a:hover{
     /*tiffany blue*/
     color:#81D8D0; 
     text-decoration: #81D8D0;
 }
 
-p { 
+/*p { 
     width: 50%;
     font-weight: 18px;
 
-}
+}*/
 
 html { 
   background: url(../img/desktop.jpg) no-repeat center top;
@@ -120,7 +119,26 @@ padding-bottom: 15px;
     display: block;
     padding-bottom: 20px;
 }
-/*================tablet view==========*/
+
+/*_________Contact Me___________*/
+#contact{
+    text-align: center;
+}
+
+
+/*===Mobile view===*/
+@media screen and (min-width: 320px) {
+  .cell {
+      width: 100%;
+  }
+  p { 
+    width: 100%;
+    font-weight: 18px;
+
+}
+}
+
+/*===tablet view===*/
 @media screen and (min-width: 600px) {
   .grid {
     display: flex;
@@ -131,17 +149,17 @@ padding-bottom: 15px;
     width: 50%;
   }
 }
-/*================Desktop view==========*/
+
+/*===Desktop view===*/
 @media screen and (min-width: 1000px) {
   .cell {
     width: 50%;
   }
+  p { 
+    width: 50%;
+    font-weight: 18px;
+    }
 }
 
 
 
-
-/*_________Contact Me___________*/
-#contact{
-    text-align: center;
-}
