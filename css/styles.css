@@ -8,16 +8,21 @@ a {
     text-decoration: none;
 }
 
-a:hover{
+a:hover {
     /*tiffany blue*/
     color:#81D8D0; 
-    text-decoration: #81D8D0;
+    /*text-decoration: #81D8D0;*/
+    border-bottom: 2px #81D8D0;
 }
 
-p { 
-    width: 50%;
-    font-weight: 18px;
-
+a:active {
+    /*tiffany blue*/
+    color:#81D8D0; 
+    /*text-decoration: #81D8D0;*/
+    border-bottom: 2px #81D8D0;
+}
+p {
+    font-weight: 24px;
 }
 
 html { 
@@ -129,7 +134,6 @@ padding-bottom: 15px;
 
   p { 
     width: 90%;
-    font-weight: 18px;
     }
 
 .img-section {
@@ -161,7 +165,6 @@ padding-bottom: 15px;
   }
   p { 
     width: 50%;
-    font-weight: 18px;
     }
     .img-section {
     padding-top: 200px;
