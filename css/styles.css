@@ -80,6 +80,18 @@ padding-bottom: 15px;
     padding-bottom: 40px;
 }
 
+
+/*.tech-stack img{
+    width: 250px;
+    height: 270px;
+}*/
+
+.tech-stack > ul{
+    margin-top: 50px;
+    display: flex;
+    color: #81D8D0; 
+}
+
 .tech-stack > h1 {
     color:#81D8D0;
     padding-bottom: 40px; 
