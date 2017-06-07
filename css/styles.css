@@ -1,6 +1,8 @@
 * {
     box-sizing: border-box;
     margin: 0 auto;
+    padding: 0 1rem;
+
 }
 
 a {
@@ -63,11 +65,13 @@ ul {
     top: 0;
     padding-top: 10px;
     padding-bottom: 10px;
+    background-color: black; 
+    opacity: .5;
 }
 .main-nav > ul{
-padding-top: 40px;
+padding-top: 30px;
+padding-bottom: 15px;
 }
-
 
 .about-me > h1 {
     color:#81D8D0; 
@@ -75,22 +79,53 @@ padding-top: 40px;
     padding-bottom: 40px;
 }
 
-
-.img-section{
+.tech-stack > h1,
+.work > h3 {
+    color:#81D8D0; 
+}
+.img-section {
     padding-top: 200px;
-    padding-left: 100px;
+    padding-left: 70px;
 
 }
 .avi_image {
-    height: 200px;
+    height: 150px;
     width: 200px;
     border-radius: 60%;
 }
 
-.project {
-    display: inline-block;
+/*______Project Grid Layout_______*/
+
+.responsive-image {
+    max-width: 100%;
 }
 
+.cell img {
+    display: block;
+    padding-bottom: 20px;
+}
+/*================tablet view==========*/
+@media screen and (min-width: 600px) {
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .cell {
+    width: 50%;
+  }
+}
+/*================Desktop view==========*/
+@media screen and (min-width: 1000px) {
+  .cell {
+    width: 50%;
+  }
+}
+
+
+
+
+/*_________Contact Me___________*/
 #contact{
     text-align: center;
 }
