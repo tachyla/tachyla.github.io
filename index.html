@@ -4,30 +4,33 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Tk Murray</title>
-        <link rel="stylesheet" href="./css/styles.css">
         <link href="https://fonts.googleapis.com/css?family=Raleway:400,700i,900" rel="stylesheet">
+        <link rel="stylesheet" href="./css/styles.css">
+        <!--<link rel="stylesheet" href="./css/scrolling-nav.css">-->
+        <!--<link rel="stylesheet" href="./css/bootstrap.min.css">-->
     </head>
     <body>
         <header>
-            <nav class="main-nav" >
+            <nav class="main-nav">
                 <ul>
-                    <li class="main-nav-link"><a href="#about">About Me</a></li>
-                    <li class="main-nav-link"><a href="#work">Works</a></li>
-                    <li class="main-nav-link"><a href="#contact">Contact</a></li>
+                    <li class="main-nav-link page-scroll"><a href="#about">About Me</a></li>
+                    <li class="main-nav-link page-scroll"><a href="#works">My Work</a></li>
+                    <li class="main-nav-link page-scroll"><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </header>
-        <section class="about-me">
+<!--About Section-->
+        <section class="about-me" id="about">
             <h1>Hello!</h1>
-            <p class="about" id="about">
+            <p class="about">
                 I'm TaChyla Murray<br>
                 A front end JavaScript developer in San Francisco, CA<br>                 
-                I create full stack applications paired with sharp wits<br>
+                I create full stack applications paired with the sharp wits<br>
                 of a QA Engineer with 5+ years experience
             </p>
-        </section>
-        <section class="img-section">
-            <img class='avi_image' src="./img/avi.jpg" alt="headshot">
+            <section class="img-section">
+                <img class='avi_image' src="./img/avi.jpg" alt="headshot">
+            </section>
         </section>
         
         <section class='tech-stack'>
@@ -37,132 +40,84 @@
                 <li><img src="./img/trio.png" alt="trio"></li>
             </ul>
         </section>
+            <!--<section class="work-title grid">
+                <h3>Avail-a-Bikes</h3>
+                <h3>Quizical</h3>
+            </section>-->
+                <!--<p class="project-description">
+                    A frob which allows you to frobnicate other frobs.
+                </p>
+                <div class="project-link">
+                    <div class="project-link project-link-github">
+                        <a href="#">Source code</a>
+                    </div>
+                </div>-->
 
-
-
-        <section class='grid-works'>
+                <!--<p class="project-description">
+                    A frob which allows you to frobnicate other frobs.
+                </p>
+                <div class="project-link">
+                    <li class="project-link project-link-github">
+                        <a href="#">Source code</a>
+                    </li>
+                </div>-->
+        <section class='grid-works' id="works">
             <div class="container">
                 <div class="grid">
-                    <div class="cell grow">
+                    <div class="cell grow" alt="availabikes">
+                        <div class="cell-title">Avail-a-Bikes</div>
+                        <p2 class="cell-desc">
+                            Avail-a-Bikes is front end application 
+                            that helps users find nearby bike rental 
+                            locations along with the number of available 
+                            bikes at a particular station. It accommodates 
+                            large group rentals or provides empty slot 
+                            information for easy bike return. 
+                        </p2>
                         <a href="#">
                             <img src="./img/bikes.png" class="responsive-image">
                         </a>
+                        <button class="cell-source-code">Source Code</button>
                     </div>
-                    <div class="cell grow">
-                         <img src="./img/Quizical.png" class="responsive-image">
+                    <div class="cell grow" alt="quizical">
+                        <div class="cell-title">Quizical</div>
+                        <p2>
+                            Quizical is a full-stack application for 
+                            individuals that want to challenge their 
+                            trivia skills. Quizical provides fun quizzes 
+                            on a variety of topics that provide instant 
+                            feedback. It automatically stores user data 
+                            with cookies to keep track of past score 
+                            progress.                            
+                        </p2>
+                        <a href="https://still-cliffs-73963.herokuapp.com/">
+                            <img src="./img/Quizical.png" class="responsive-image">
+                        </a>
+                        <button class="cell-source-code">Source Code</button>
                     </div>
-                    <div class="cell grow">
-                        <img src="http://placehold.it/500x400" class="responsive-image">
+                    <div class="cell grow" alt="dummyproject">
+                        <a href="#">
+                            <img src="./img/Quizical.png" class="responsive-image">
+                        </a>
                     </div>
-                    <div class="cell grow">
-                        <img src="http://placehold.it/500x400" class="responsive-image">
+                    <div class="cell grow"alt="fixmylife">
+                        <a href="https://lit-tundra-32456.herokuapp.com/api/topics">
+                            <img src="./img/bikes.png" class="responsive-image">
+                        </a>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!--<section class='work' id="work">
-            <section class="project">
-                <h3>Frobnicator</h3>
-                <img class="project-image" src="http://unsplash.it/350/150?random&amp;bust=1"
-                    alt="Frobnicator screenshot">
-                <p class="project-description">
-                    A frob which allows you to frobnicate other frobs.
-                </p>
-                <ul class="project-stack">
-                    <li class="project-stack-item">
-                        React
-                    </li>
-                    <li class="project-stack-item">
-                        Redux
-                    </li>
-                    <li class="project-stack-item">
-                        Node.js
-                    </li>
-                </ul>
-                <nav class="project-links">
-                    <ul>
-                        <li class="project-link project-link-live">
-                            <a href="#">Live demo</a>
-                        </li>
-                        <li class="project-link project-link-github">
-                            <a href="#">Source code</a>
-                        </li>
-                    </ul>
-                </nav>
-            </section>
-            <section class="project">
-                <h3>FooBar</h3>
-                <img class="project-image" src="http://unsplash.it/350/150?random&amp;bust=2"
-                    alt="FooBar screenshot">
-                <p class="project-description">
-                    A foo which allows you to bar other bazes.
-                </p>
-                <ul class="project-stack">
-                    <li class="project-stack-item">
-                        React
-                    </li>
-                    <li class="project-stack-item">
-                        Redux
-                    </li>
-                    <li class="project-stack-item">
-                        Node.js
-                    </li>
-                </ul>
-                <nav class="project-links">
-                    <ul>
-                        <li class="project-link project-link-live">
-                            <a href="#">Live demo</a>
-                        </li>
-                        <li class="project-link project-link-github">
-                            <a href="#">Source code</a>
-                        </li>
-                    </ul>
-                </nav>
-            </section>
-            <section class="project">
-                <h3>AliceBob</h3>
-                <img class="project-image" src="http://unsplash.it/350/150?random&amp;bust=3"
-                    alt="AliceBob screenshot">
-                <p class="project-description">
-                    An Alice which allows you to Bob other Eves.
-                </p>
-                <ul class="project-stack">
-                    <li class="project-stack-item">
-                        React
-                    </li>
-                    <li class="project-stack-item">
-                        Redux
-                    </li>
-                    <li class="project-stack-item">
-                        Node.js
-                    </li>
-                </ul>
-                <nav class="project-links">
-                    <ul>
-                        <li class="project-link project-link-live">
-                            <a href="#">Live demo</a>
-                        </li>
-                        <li class="project-link project-link-github">
-                            <a href="#">Source code</a>
-                        </li>
-                    </ul>
-                </nav>
-            </section>
-        </section>
-        </section>
+<!--Contact Section-->
         <section class="contact" id="contact">
-            <h2>Contact me</h2>
-            <form action="https://formspree.io/jrandomhacker@example.com"
-                  method="POST">
-                <label for="contact-form-name">Your Name</label>
-                <input type="text" name="name" id="contact-form-name" placeholder="Grace Hopper">
-                <label for="contact-form-email">Your Email Address</label>
-                <input type="email" name="_replyto" id="contact-form-email" placeholder="grace@example.com">
-                <label for="contact-form-message">Message</label>
-                <textarea name="message" id="contact-form-message"></textarea>
-                <input type="submit" value="Send message">
-            </form> 
-        </section>-->
+            <h2>I am interested in new and Exciting Opportunities</h2>
+            <h3>If your team may be a fit, please reach out</h3>
+            <div class="submitbtn-box">
+                <a href="mailto:tachylad.murray@gmail.com">
+                    <button class="submitbtn">SEND AN EMAIL</button>
+                </a>
+            </div>
+        </section>
     </body>
 </html>
