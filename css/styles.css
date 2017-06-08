@@ -26,11 +26,19 @@ p {
     color: lightgray;
 }
 
+p2,
+.cell-title {
+    color:#B25123; 
+    margin-top: 15px;
+    width: 60%;
+}
+
+
 a:hover {
     /*tiffany blue*/
     color:#B25123; 
     /*text-decoration: #81D8D0;*/
-    border-bottom: 2px #81D8D0;
+    /*border-bottom: 2px #81D8D0;*/
 }
 
 a:active {
@@ -158,9 +166,10 @@ padding-bottom: 15px;
     max-width: 100%;
 }
 
-/*.cell img {
-    padding-bottom: 20px;
-}*/
+.cell  {
+    padding-bottom: 50px;
+}
+
 .container {
     text-align: center;
 }
