@@ -21,7 +21,9 @@ a {
     color: #81D8D0;
     text-decoration: none;
 }
-
+.cell-source-code > a {
+    color:#B25123; 
+}
 p {
     font-weight: 24px;
     color: lightgray;
@@ -35,20 +37,12 @@ p2,
     font-size: 18px;
 }
 
-a:hover {
+.main-nav a:hover {
     /*tiffany blue*/
     color:#B25123; 
-    /*text-decoration: #81D8D0;*/
+    text-decoration: underline;
     /*border-bottom: 2px #81D8D0;*/
 }
-
-a:active {
-    /*tiffany blue*/
-    color:#81D8D0; 
-    /*text-decoration: #81D8D0;*/
-    border-bottom: 2px #81D8D0;
-}
-
 
 header {
     min-width: 320px;
