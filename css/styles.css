@@ -226,6 +226,12 @@ button {
     }
 }
 
+.submitbtn-box {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 35%;
+}
+
 /*===tablet view===*/
 @media screen and (min-width: 600px) {
   .grid {
