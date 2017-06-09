@@ -14,6 +14,7 @@ body {
     font-family: 'Raleway', sans-serif;
     color: #81D8D0;
     /*color: #127F7B;*/
+    font-style: regular-400, semi 
 }
 
 a {
@@ -117,15 +118,28 @@ padding-bottom: 15px;
     padding-bottom: 40px;
 }
 
+.tech-stack > h2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color:#B25123;
+
+}
+
 .work > h1,
 .contact > h2,
 .contact > h3,
 .tech-stack > h1,  {
     color:#81D8D0; 
 }
+.contact > h2,
+.contact > h3 {
+    font-weight: normal;
+    /*font-style: 'Semi-Bold';*/
+}
 
 .contact {
     background: #B25123;
+
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -152,6 +166,7 @@ button {
     color: #B25123;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
+    font-weight: bold;
 }
 
 .avi_image {
@@ -189,6 +204,10 @@ button {
 .cell-desc,
 .cell-source-code {
     display: block;
+}
+
+.cell-title {
+    font-weight: bolder;
 }
 
 /*_________Contact Me___________*/
