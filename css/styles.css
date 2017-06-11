@@ -12,9 +12,10 @@ html {
 body {
     margin: 0 auto;
     font-family: 'Raleway', sans-serif;
+    /*background-color: #81D8D0;*/
     color: #81D8D0;
     /*color: #127F7B;*/
-    font-style: regular-400, semi 
+    font-style: "semi-bold"; 
 }
 
 a {
