@@ -29,6 +29,14 @@ p {
     font-weight: 24px;
     color: lightgray;
 }
+p span {
+
+    font-weight: bolder;
+    /*font-family: 'Raleway', sans-serif;*/
+    font-size: 20px;
+    color: #81D8D0;
+    /*font-style: "black";*/
+}
 
 p2,
 .cell-title {
