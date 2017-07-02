@@ -31,7 +31,7 @@ p {
 }
 p span {
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 28px;
     color: #81D8D0;
 }
 
@@ -117,7 +117,7 @@ padding-bottom: 15px;
     color: #81D8D0; 
 }
 .tech-stack > li {
-    display: inline-flex;
+    /*display: inline-flex;*/
 }
 
 
