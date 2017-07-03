@@ -25,7 +25,7 @@ a {
 .cell-source-code > a {
     color:#B25123; 
 }
-p {
+#about > p {
     font-weight: 24px;
     color: lightgray;
 }
@@ -44,7 +44,6 @@ i {
 
 .tech-stack li:hover {
     color:#B25123; 
-    /*text-decoration: underline;*/
     border-bottom: 2px #B25123;
 }
 
@@ -71,7 +70,7 @@ p2 {
     text-align: center;
 }
 
-ul {
+.main-nav > ul {
     list-style: none;
     display: flex;
     font-size: 18px;
@@ -107,38 +106,35 @@ padding-bottom: 15px;
 }
 
 .tech-stack {
-    padding-top: 40px;
-    margin-bottom: 25px;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    background-color:#81D8D0; 
 }
 
 .tech-stack > ul{
-    opacity: .7;
-    width: 50%;
-    color: #81D8D0; 
-}
-.tech-stack > li {
-    /*display: inline-flex;*/
+    display: flex;
+    color: #B25123;
 }
 
+.fe-ul, .be-ul {
+    color: #B25123;
+    display: block;
+}
 
 .grid-works > h1 {
-    /*margin-top: 160px;*/
-    /*margin-bottom: 20px;*/
     color:#B25123;
 
 }
 
 .work > h1,
 .contact > h2,
-.contact > h3,
-.tech-stack > h1,  {
+.contact > h3 {
     color:#81D8D0; 
 }
 .contact > h2,
 .contact > h3 {
     font-weight: normal;
     line-height: 170%;
-    /*font-style: 'Semi-Bold';*/
 }
 
 .contact {
@@ -175,7 +171,6 @@ button {
 }
 
 .avi_image {
-    /*display: block;*/
     height: 200px;
     width: 200px;
     border-radius: 60%;
@@ -231,7 +226,7 @@ button {
       width: 100%;
   }
 
-  p { 
+  #about > p { 
     width: 90%;
     }
 
@@ -284,7 +279,7 @@ button {
     width: 50%;
   }
 
-  p { 
+  #about > p { 
     width: 50%;
     }
     
