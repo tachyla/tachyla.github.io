@@ -233,7 +233,7 @@ button {
 
     .img-section {
         padding-top: 20px;
-        padding-bottom: 50px;
+        padding-bottom: 20px;
     }
 
     .avi_image {
@@ -272,7 +272,8 @@ button {
 
   .img-section {
     padding-top: 20px;
-    padding-left: 25px;
+    /*padding-left: 25px;*/
+    padding-bottom: 20px;
     }
 
     .tech-stack img {
