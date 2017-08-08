@@ -37,16 +37,15 @@ button {
     color:#B25123; 
 }
 
-
 a {
     text-decoration: none;
 }
-
 
 #about > p {
     font-weight: 24px;
     color: lightgray;
 }
+
 p span {
     font-weight: bolder;
     font-size: 28px;
@@ -114,17 +113,15 @@ padding-bottom: 15px;
 }
 
 .tech-stack {
-    padding-top: 100px;
-    padding-bottom: 150px;
+    padding-top: 155px;
+    padding-bottom: 200px;
     background-color:#81D8D0; 
 }
 
 .hello {
-    color: black;
-}
-
-.tech > a {
-    color: black;
+    color: #B25123;
+    font-size: 55px;
+    padding-bottom: 20px;
 }
 
 .tech-stack > ul,
@@ -132,21 +129,26 @@ padding-bottom: 15px;
 .fe-ul {
     display: flex;
     list-style: none;
-}
-
-.be-ul > li,
-.fe-ul > li{
-    background-color: white;
-    opacity: .8;    
+    font-size: 25px;
 }
 
 ul li {
     float: left;
-    width: 200px;
+    width: 150px;
     height: 50px;
 }
 
+li ul li {
+    display: none;
+}
 
+ul li:hover ul li {
+    display: block;
+}
+
+ li p:hover {
+    border-bottom: 1px solid #B25123; 
+}
 
 .fe-ul, .be-ul {
     display: block;
