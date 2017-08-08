@@ -119,9 +119,33 @@ padding-bottom: 15px;
     background-color:#81D8D0; 
 }
 
-.tech-stack > ul{
-    display: flex;
+.hello {
+    color: black;
 }
+
+.tech > a {
+    color: black;
+}
+
+.tech-stack > ul,
+.be-ul,
+.fe-ul {
+    display: flex;
+    list-style: none;
+}
+
+.be-ul > li,
+.fe-ul > li{
+    background-color: white;
+    opacity: .8;    
+}
+
+ul li {
+    float: left;
+    width: 200px;
+    height: 50px;
+}
+
 
 
 .fe-ul, .be-ul {
