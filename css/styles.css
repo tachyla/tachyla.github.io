@@ -194,11 +194,13 @@ button {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: bold;
+    display: block;
+    margin-bottom: 40px;
 }
 
 .avi_image {
-    height: 200px;
-    width: 200px;
+    /* height: 200px; */
+    /* width: 200px; */
     border-radius: 60%;
 }
 
@@ -217,20 +219,28 @@ button {
     max-width: 100%;
 }
 
+.container {
+    text-align: center;
+}
+
 .cell  {
     z-index: 5;
     padding-bottom: 50px;
     width: 100%;
+    display: inline-flex;
 }
 
-.container {
-    text-align: center;
-}
-.cell img,
-.cell-title,
-.cell-desc,
-.cell-source-code {
+.desc-container {
     display: block;
+    width: 40%;
+    border-bottom: 2px solid #81D8D0;
+}
+
+.image-container{
+    display: block;
+    width: 60%;
+    border-bottom: 2px solid #81D8D0;
+
 }
 
 .cell-title {
@@ -249,9 +259,6 @@ button {
 
 /*===Mobile view===*/
 @media screen and (min-width: 320px) {
-  /* .cell {
-      width: 100%;
-  } */
 
   #about > p,
   #works > h1 { 
@@ -265,8 +272,8 @@ button {
 
     .avi_image {
         display: block;
-        height: 200px;
-        width: 200px;
+        height: 300px;
+        width: 300px;
         border-radius: 60%;
         }
 
@@ -286,12 +293,8 @@ button {
     .grid {
         display: flex;
         flex-wrap: wrap;
-        flex-direction: row;
+        /* flex-direction: row; */
         }
-
-    /* .cell {
-        width: 50%;
-        } */
 
     #works > h1 { 
     width: 90%;
@@ -311,9 +314,6 @@ button {
 
 /*===Desktop view===*/
 @media screen and (min-width: 1000px) {
-  /* .cell {
-    width: 50%;
-  } */
 
   #about > p { 
     width: 50%;
