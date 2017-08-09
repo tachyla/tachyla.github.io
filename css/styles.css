@@ -157,7 +157,7 @@ ul li:hover ul li {
 .grid-works > h1 {
     margin-top: 100px;
     margin-bottom: 40px;
-    font-size: 55px;
+    font-size: 40px;
 }
 
 .contact > h2,
@@ -220,6 +220,7 @@ button {
 .cell  {
     z-index: 5;
     padding-bottom: 50px;
+    width: 100%;
 }
 
 .container {
@@ -248,9 +249,9 @@ button {
 
 /*===Mobile view===*/
 @media screen and (min-width: 320px) {
-  .cell {
+  /* .cell {
       width: 100%;
-  }
+  } */
 
   #about > p,
   #works > h1 { 
@@ -288,9 +289,9 @@ button {
         flex-direction: row;
         }
 
-    .cell {
+    /* .cell {
         width: 50%;
-        }
+        } */
 
     #works > h1 { 
     width: 90%;
@@ -310,9 +311,9 @@ button {
 
 /*===Desktop view===*/
 @media screen and (min-width: 1000px) {
-  .cell {
+  /* .cell {
     width: 50%;
-  }
+  } */
 
   #about > p { 
     width: 50%;
