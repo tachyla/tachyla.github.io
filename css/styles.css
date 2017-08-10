@@ -235,6 +235,14 @@ html {
       width: 40%;
       border-bottom: 2px solid #81D8D0;
   }
+
+  .left {
+      padding-left: 130px;
+  }
+
+  .right {
+      padding-right: 130px;
+  }
   
   .image-container{
       display: block;
