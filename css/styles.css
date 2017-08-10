@@ -228,19 +228,6 @@ button {
     display: inline-flex;
 }
 
-.desc-container {
-    display: block;
-    width: 50%;
-    border-bottom: 2px solid #81D8D0;
-}
-
-.image-container{
-    display: block;
-    width: 50%;
-    border-bottom: 2px solid #81D8D0;
-
-}
-
 .cell-title {
     font-weight: bolder;
 }
