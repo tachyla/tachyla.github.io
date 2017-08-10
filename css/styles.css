@@ -235,7 +235,6 @@ html {
   .desc-container {
       display: block;
       width: 40%;
-      border-bottom: 2px solid #81D8D0;
   }
 
   .left {
@@ -248,9 +247,7 @@ html {
   
   .image-container{
       display: block;
-      width: 60%;
-      border-bottom: 2px solid #81D8D0;
-  
+      width: 60%;  
   }
   
   .cell-title {
