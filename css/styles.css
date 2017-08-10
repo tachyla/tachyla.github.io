@@ -3,10 +3,10 @@ html {
     background-size: 100% 650px;
   }
   
-  * {
-      box-sizing: border-box;
-      margin: 0 auto;
-  }
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
   
   
   body {
@@ -112,54 +112,64 @@ html {
       line-height: 170%;
   }
   
-  .tech-stack {
-      padding-top: 155px;
-      padding-bottom: 200px;
-      background-color:#81D8D0; 
-  }
   
   .hello {
       color: #B25123;
       font-size: 55px;
       padding-bottom: 20px;
-  }
-  
-  .tech-stack > ul,
-  .be-ul,
-  .fe-ul {
-      display: flex;
-      list-style: none;
-      font-size: 25px;
-  }
-  
-  ul li {
-      float: left;
-      width: 150px;
-      height: 50px;
-  }
-  
-  li ul li {
-      display: none;
-  }
-  
-  ul li:hover ul li {
-      display: block;
-  }
-  
-   li p:hover {
-      border-bottom: 1px solid #B25123; 
-  }
-  
-  .fe-ul, .be-ul {
-      display: block;
-  }
-  
-  .grid-works > h1 {
-      margin-top: 100px;
-      margin-bottom: 40px;
-      font-size: 40px;
-  }
-  
+    }
+    
+    .tech-stack > ul,
+    .be-ul,
+    .fe-ul {
+        display: flex;
+        list-style: none;
+        font-size: 25px;
+    }
+    
+    ul li {
+        float: left;
+        width: 150px;
+        height: 50px;
+    }
+    
+    li ul li {
+        display: none;
+    }
+    
+    ul li:hover ul li {
+        display: block;
+    }
+    
+    li p:hover {
+        border-bottom: 1px solid #B25123; 
+    }
+    
+    .fe-ul, .be-ul {
+        display: block;
+    }
+    
+.cell-title {
+    font-size: 23px;
+    padding-bottom: 20px;
+}
+
+.cell-desc {
+    font-size: 20px;
+    font-weight: 600;
+}
+    .tech {
+        padding-top: 155px;
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .grid-works > h1 {
+        margin-top: 100px;
+        margin-bottom: 60px;
+        font-size: 40px;
+    }
+    
   .contact > h2,
   .contact > h3 {
       font-weight: normal;
@@ -263,6 +273,9 @@ html {
     #works > h1 { 
       width: 90%;
       }
+    #works > h1 {
+        font-size: 30px;
+    }  
   
       .img-section {
           padding-top: 20px;
