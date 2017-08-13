@@ -210,8 +210,6 @@ html {
   }
   
   .avi_image {
-      /* height: 200px; */
-      /* width: 200px; */
       border-radius: 60%;
   }
   
@@ -219,7 +217,18 @@ html {
   
   .responsive-image {
       max-width: 100%;
+      margin-bottom: 20px;
   }
+  .bike {
+    height: 159px;
+    width: 520px;
+  }
+
+  .fix {
+      height: 189px;
+      width: 520px;
+  }
+
   
   .container {
       text-align: center;
@@ -236,6 +245,10 @@ html {
       display: block;
       width: 40%;
   }
+
+  img {
+    border-color: 5px solid #81D8D0;
+}
 
   .left {
       padding-left: 130px;
