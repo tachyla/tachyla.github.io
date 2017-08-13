@@ -280,6 +280,10 @@ html {
   /*===Mobile view===*/
   @media screen and (min-width: 320px) {
   
+    .main-nav-link > a {
+        font-size: 26px;
+    }
+    
     #about > p,
     #works > h1 { 
       width: 90%;
@@ -313,6 +317,10 @@ html {
   
   /*===tablet view===*/
   @media screen and (min-width: 600px) {
+    .main-nav-link > a {
+        font-size: 26px;
+    }        
+
       .grid {
           display: flex;
           flex-wrap: wrap;
