@@ -205,7 +205,6 @@ html {
       font-family: 'Raleway', sans-serif;
       font-size: 18px;
       font-weight: bold;
-      display: block;
       margin-bottom: 40px;
   }
   
@@ -248,6 +247,7 @@ html {
 
   img {
     border-color: 5px solid #81D8D0;
+    display: block;
 }
 
   .left {
