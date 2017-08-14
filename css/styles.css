@@ -40,7 +40,7 @@ html {
   a {
       text-decoration: none;
   }
-  
+
   #about > p {
       font-weight: 24px;
       color: lightgray;
@@ -226,7 +226,6 @@ html {
       z-index: 5;
       padding-bottom: 50px;
       width: 100%;
-      display: inline-flex;
   }
   
   .desc-container {
@@ -267,6 +266,18 @@ html {
     
     .cell-desc {
         font-size: 16px;
+    }
+
+    .cell {
+        display: block;        
+    }
+
+    .desc-container {
+        width: 90%;
+    }
+
+    .tech {
+        padding-top: 30px;
     }
 
     #about > p,
@@ -312,8 +323,13 @@ html {
   
   /*===tablet view===*/
   @media screen and (min-width: 600px) {
+      
     .main-nav-link > a {
         font-size: 26px;
+    }
+
+    .cell {
+        display: inline-flex;        
     }        
 
       .grid {
@@ -375,11 +391,15 @@ html {
         width: 85%;
       }
 
-    .grow {
+    .cell {
+        display: inline-flex;        
+    } 
+
+    /* .grow {
         transition: all .2s ease-in-out;
     }
     
     .grow:hover { 
         transform: scale(1.1); 
-        }      
+        }       */
   }
