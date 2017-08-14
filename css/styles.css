@@ -217,16 +217,6 @@ html {
       max-width: 100%;
       margin-bottom: 20px;
   }
-  .bike {
-    height: 159px;
-    width: 520px;
-  }
-
-  .fix {
-      height: 189px;
-      width: 520px;
-  }
-
   
   .container {
       text-align: center;
@@ -287,27 +277,37 @@ html {
         font-size: 30px;
     }  
   
-      .img-section {
-          padding-top: 20px;
-          padding-bottom: 5px;
-      }
+    .img-section {
+        padding-top: 20px;
+        padding-bottom: 5px;
+    }
+
+    .avi_image {
+        display: block;
+        height: 300px;
+        width: 300px;
+        border-radius: 60%;
+        }
+    .bike {
+    height: 80px;
+    width: 260px;
+    }
+
+    .fix {
+        height: 95px;
+        width: 260px;
+    }
+    
   
-      .avi_image {
-          display: block;
-          height: 300px;
-          width: 300px;
-          border-radius: 60%;
-          }
+    .submitbtn-box {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 35%;
+    }
   
-      .submitbtn-box {
-          margin-top: 30px;
-          margin-bottom: 30px;
-          width: 35%;
-      }
-  
-      .tech-stack img {
-          width: 100%;
-      }
+    .tech-stack img {
+        width: 100%;
+    }
   }
   
   /*===tablet view===*/
@@ -348,6 +348,16 @@ html {
     .right {
         padding-right: 130px;
     }
+
+    .bike {
+        height: 159px;
+        width: 520px;
+      }
+    
+      .fix {
+          height: 189px;
+          width: 520px;
+      }
 
     #about > p { 
       width: 50%;
