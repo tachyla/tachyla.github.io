@@ -217,6 +217,9 @@ html {
       max-width: 100%;
       margin-bottom: 20px;
   }
+  .french {
+      border: 2px solid #337ab7;
+  }
   
   .container {
       text-align: center;
