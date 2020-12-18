@@ -33,13 +33,6 @@ html {
       color: #1F2833
   }
 
-  .tech-stack > ul,
-  .fe-ul, 
-  .be-ul,
-  button { 
-      color:#B25123; 
-  }
-  
   a {
       text-decoration: none;
   }
@@ -116,7 +109,6 @@ html {
   }
   
   .hello {
-      color: #B25123;
       font-size: 55px;
       padding-bottom: 20px;
     }
@@ -141,10 +133,6 @@ html {
     
     ul li:hover ul li {
         display: block;
-    }
-    
-    li p:hover {
-        border-bottom: 1px solid #B25123; 
     }
     
     .fe-ul, .be-ul {
@@ -219,9 +207,6 @@ html {
   .responsive-image {
       max-width: 100%;
       margin-bottom: 20px;
-  }
-  .french {
-      border: 2px solid #337ab7;
   }
   
   .container {
@@ -401,11 +386,4 @@ html {
         display: inline-flex;        
     } 
 
-    /* .grow {
-        transition: all .2s ease-in-out;
-    }
-    
-    .grow:hover { 
-        transform: scale(1.1); 
-        }       */
   }
