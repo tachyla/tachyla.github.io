@@ -27,12 +27,15 @@ html {
       }
   
   .cell-source-code > a,
+  .grid-works > h1,
   p2,
+  .submitbtn  {
+      color: #1F2833
+  }
+
   .tech-stack > ul,
   .fe-ul, 
   .be-ul,
-  .grid-works > h1,
-  .submitbtn,
   button { 
       color:#B25123; 
   }
@@ -157,7 +160,7 @@ html {
     font-size: 20px;
     font-weight: 600;
 }
-    .tech {
+    .tech {fa
         padding-top: 100px;
         padding-bottom: 30px;
         font-weight: 600;
@@ -177,7 +180,7 @@ html {
   }
   
   .contact {
-      background: #B25123;
+      background: #1F2833;
       padding-top: 20px;
       padding-bottom: 20px;
   }
