@@ -36,7 +36,8 @@ html {
   }
 
   .button > a
-  a {
+  a,
+  #button > a {
       text-decoration: none;
   }
 
