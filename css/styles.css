@@ -26,13 +26,16 @@ html {
       color: #81D8D0;
       }
   
-  .cell-source-code > a,
-  .grid-works > h1,
   p2,
-  .submitbtn  {
-      color: #1F2833
+  .submitbtn {
+      color: #1F2833;
   }
 
+  #button > a {
+      color: white;
+  }
+
+  .button > a
   a {
       text-decoration: none;
   }
@@ -155,6 +158,11 @@ html {
         font-size: 20px;
     }
 
+    .grid {
+        padding-top: 50px;
+        background-color: #1F2833;
+    }
+
     .grid-works > h1 {
         margin-top: 100px;
         margin-bottom: 60px;
@@ -168,11 +176,11 @@ html {
   }
   
   .contact {
-      background: #1F2833;
+      background: White;
       padding-top: 20px;
       padding-bottom: 20px;
   }
-  
+
   .submitbtn-box {
       margin-top: 30px;
       margin-bottom: 30px;
@@ -257,6 +265,7 @@ html {
     
     .cell-desc {
         font-size: 16px;
+        color: white;
     }
 
     .cell {
@@ -317,6 +326,7 @@ html {
       
     .main-nav-link > a {
         font-size: 26px;
+        color: #81D8D0;
     }
 
     .cell {
