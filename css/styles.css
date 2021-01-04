@@ -20,9 +20,7 @@ html {
   p span,
   p2,
   .cell-title,
-  .about-me > h1,
-  .contact > h2,
-  .contact > h3  {
+  .about-me > h1  {
       color: #81D8D0;
       }
   
@@ -174,6 +172,9 @@ html {
   .contact > h3 {
       font-weight: normal;
       line-height: 170%;
+      color: #1F2833;
+      font-size: 1.5em;
+      font-weight: bold;
   }
   
   .contact {
@@ -236,6 +237,9 @@ html {
   img {
     border-color: 5px solid #81D8D0;
     display: block;
+}
+.intrest > p {
+    font-weight: bold;
 }
   
   .image-container{
